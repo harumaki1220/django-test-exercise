@@ -1,6 +1,8 @@
-from django.test import TestCase, Client
-from django.utils import timezone
 from datetime import datetime
+
+from django.test import Client, TestCase
+from django.utils import timezone
+
 from todo.models import Task
 
 # Create your tests here.
